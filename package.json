@@ -1,0 +1,29 @@
+{
+  "name": "javascript_course_metropolia26_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexDenkko/javascript_course_metropolia26_backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AlexDenkko/javascript_course_metropolia26_backend/issues"
+  },
+  "homepage": "https://github.com/AlexDenkko/javascript_course_metropolia26_backend#readme",
+  "devDependencies": {
+    "@eslint/css": "^2.0.1",
+    "@eslint/js": "^10.0.1",
+    "@eslint/json": "^2.1.1",
+    "@eslint/markdown": "^8.0.3",
+    "eslint": "^10.14.0",
+    "globals": "^17.14.0"
+  }
+}
