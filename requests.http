@@ -1,0 +1,36 @@
+
+### POST: Lisää uusi kissa
+POST http://127.0.0.1:3000/api/v1/cats
+Content-Type: application/json
+
+{
+  "cat_name": "Pikku",
+  "weight": 5.2,
+  "owner": "Alex",
+  "filename": "pikku.jpg",
+  "birthdate": "2022-03-15"
+}
+
+### POST: Lisää uusi käyttäjä
+POST http://127.0.0.1:3000/api/v1/users
+Content-Type: application/json
+
+{
+  "name": "Alex Smith",
+  "username": "alexsmith",
+  "email": "alex@example.com",
+  "role": "user",
+  "password": "password"
+}
+
+### PUT: Päivitä kissa
+PUT http://127.0.0.1:3000/api/v1/cats/1
+
+### DELETE: Poista kissa
+DELETE http://127.0.0.1:3000/api/v1/cats/1
+
+### PUT: Päivitä käyttäjä
+PUT http://127.0.0.1:3000/api/v1/users/1
+
+### DELETE: Poista käyttäjä
+DELETE http://127.0.0.1:3000/api/v1/users/1
